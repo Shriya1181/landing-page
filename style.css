@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    color: white;
+    flex: auto;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding: 16px;
+    flex: 0 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    gap: 400px;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header .links {
+    align-self: center;
+}
+
+.content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.two .heading  h2{
+    text-align: center;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #1F2937;
+    border-radius: 10px;
+}
+
+.one {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding: 100px 200px;
+    gap: 200px;
+}
+
+.one button {
+    background-color: #3882f6;
+    color: white;
+    height: 32px;
+    width: 100px;
+    align-self: center;
+    display: flex;        
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    padding: 12px 16px;
+}
+
+.one img {
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.quote p {
+    text-align: center;
+    width: 600px;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-style: normal;
+    color: #1F2937;
+    text-align: right;
+    font-weight: 600;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 80px 0px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 8px 64px;
+    border-radius: 8px;
+    margin: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.sign-up h2 {
+    padding: 0;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.sign-up p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 24px;;
+}
+
+
+.four button {
+    background-color: #3882f6;
+    color: white;
+    height: 24px;
+    align-self: center;
+    display: flex;        
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: none;
+    padding: 12px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 24px;
+    flex: 0 0 auto;
+}
